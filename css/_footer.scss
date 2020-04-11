@@ -1,0 +1,35 @@
+footer {
+    height: 100px;
+    background-color: #333;
+
+    .footer-container {
+        display: flex;
+        height: 100px;
+        align-items: center;
+
+        .footer-copyright {
+            flex: 1;
+            padding: 10px;
+            color: #777;
+        }
+    
+        .footer-links {
+            flex: 2;
+            display: flex;
+            justify-content: flex-end;
+            padding: 10px;
+    
+            .footer-link {
+                padding: 5px;
+                margin: 5px;
+                font-size: 2rem;
+                color: #777;
+                transition: all 0.3s;
+
+                &:hover {
+                    color: #999;
+                }
+            }
+        }
+    }
+}

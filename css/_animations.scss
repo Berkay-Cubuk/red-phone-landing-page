@@ -1,0 +1,150 @@
+@keyframes dropdownNav {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes heroImage {
+    0% {
+        opacity: 0;
+        width: 70%;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes iconSize {
+    0% {
+        padding-left: 0px;
+    }
+    50% {
+        padding-left: 10px;
+    }
+    100% {
+        padding-left: 0px;
+    }
+}
+
+@keyframes underline {
+    0% {
+        width: 0%;
+    }
+    50% {
+        width: 100%;
+    }
+    100% {
+        width: 0%;
+    }
+}
+
+@keyframes glow {
+    0% {
+        background-color: #d83f3f;
+        box-shadow: none;
+    }
+    50% {
+        background-color: #df5959;
+        box-shadow: 0px 0px 5px 2px rgba(189, 46, 46, 0.4);
+    }
+    100% {
+        background-color: #d83f3f;
+        box-shadow: none;
+    }
+}
+
+@keyframes circle1 {
+    0% {
+        opacity: 0;
+        transform: translateX(50px) translateY(150px);
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+@keyframes circle1in {
+    0% {
+        transform: translateX(10px) translateY(25px);
+    }
+    50% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(10px) translateY(25px);
+    }
+}
+
+@keyframes circle2 {
+    0% {
+        opacity: 0;
+        transform: translateX(100px) translateY(150px);
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+@keyframes circle2in {
+    0% {
+        transform: translateX(500px) translateY(50px);
+    }
+    50% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(500px) translateY(50px);
+    }
+}
+
+[data-scroll] {
+    //transition: all 2s;
+    //animation: showcase 0.3s;
+}
+
+[data-scroll="in"] {
+    //opacity: 1;
+    //transform: translateX(0);
+    animation: showcase 3s;
+}
+
+[data-scroll="out"] {
+    //opacity: 0;
+    //transform: translateX(-200px);
+}
+
+@keyframes showcaseCard {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes showcase {
+    0% {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}

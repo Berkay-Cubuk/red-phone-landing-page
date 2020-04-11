@@ -1,0 +1,43 @@
+/*
+
+Kırmızı Telefon için özel olarak tasarlanmıştır
+Tasarlayan ve Programlayan: Berkay Çubuk
+Website: https://berkaycubuk.net
+Versiyon: 0.1.0
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import 'animations';
+@import 'objects';
+@import 'header';
+@import 'main';
+@import 'footer';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    font-size: 20px;
+}
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #d44747;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0px auto;
+}
